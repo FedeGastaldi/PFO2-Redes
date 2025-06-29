@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>PFO2 - Sistema de Tareas</title>
+  <style>
+    body { font-family: sans-serif; max-width: 700px; margin: auto; padding: 2rem; }
+    h1 { color: #0066cc; }
+    code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    img { width: 100%; border: 1px solid #ccc; margin-bottom: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Sistema de Gestión de Tareas - PFO 2</h1>
+  <p>Este proyecto consiste en una API REST desarrollada con Flask y SQLite. Incluye autenticación básica y gestión de tareas.</p>
+
+  <h2>📡 Endpoints</h2>
+  <ul>
+    <li><strong>POST /registro</strong> → crea usuario</li>
+    <li><strong>POST /login</strong> → inicia sesión</li>
+    <li><strong>GET /tareas</strong> → muestra HTML de bienvenida</li>
+  </ul>
+
+  <h2>📷 Capturas</h2>
+  <img src="../capturas/registro-ok.png" alt="Registro exitoso" />
+  <img src="../capturas/login-ok.png" alt="Login exitoso" />
+  <img src="../capturas/tareas-ok.png" alt="Vista tareas" />
+
+  <h2>📚 Preguntas Teóricas</h2>
+  <p><strong>¿Por qué hashear contraseñas?</strong><br>
+    Para que no se almacenen en texto plano, protegiéndolas ante accesos no autorizados.</p>
+
+  <p><strong>Ventajas de usar SQLite:</strong><br>
+    Es liviano, embebido, no necesita instalación y es ideal para prototipos o sistemas locales.</p>
+
+  <p>Autor: Federico Gastaldi</p>
+</body>
+</html>
